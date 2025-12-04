@@ -7,7 +7,7 @@ int main ()
 {
     float price;
     float sum = 0;
-    float amount = 0;
+    int amount = 0;
 
     cin >> price;
 
@@ -22,7 +22,9 @@ int main ()
         cin >> price;
     }
 
-    cout << fixed << setprecision (2) << sum << " " << amount;
+    cout << fixed << setprecision (2) << "Total price of magical toys: " << sum << " EUR" << endl
+         << "Number of magical toys: " << amount;
 
     return 0;
 }
+
