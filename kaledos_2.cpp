@@ -12,7 +12,9 @@ int main ()
     m = x * 60 + y;
     s = m * 60;
 
-    cout << m << " " << s;
+    cout << "Minutes passed: m = " m << endl 
+         << "Seconds passed: s = " s;
 
     return 0;
 }
+
