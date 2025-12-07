@@ -200,14 +200,16 @@ int main()
 
     while (seconds >= 0)
     {
+        cout << "Santa is preparing…" << endl;
         cout << number[seconds] << flush;
         std ::this_thread::sleep_for(std::chrono::seconds(1));
         system ("cls");
         seconds--;
     }
 
-    cout << "SANTA�S SLEIGH IS LAUNCHING!";
+    cout << "SANTA’S SLEIGH IS LAUNCHING!";
 
 
     return 0;
 }
+
